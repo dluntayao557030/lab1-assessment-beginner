@@ -54,7 +54,7 @@ $revenue = $revRow['s'];
     </div>
 </section>
 
-<div class = "container mt-4"  style="gap: 25px; display: flex; justify-content: center;">
+<div class = "container mt-5"  style="gap: 25px; display: flex; justify-content: center;">
   <h4 class="text-center">Quick Actions</h4>
   <button type="button" class="btn btn-primary" onclick="window.location.href='/assessment_beginner/pages/clients_add.php'"> Add Client</button>
   <button type="button" class="btn btn-primary" onclick="window.location.href='/assessment_beginner/pages/bookings_create.php'">Create Booking</button>

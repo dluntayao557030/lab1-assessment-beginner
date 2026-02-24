@@ -31,7 +31,7 @@ if (isset($_POST['save'])) {
 <body>
 <?php include "../nav.php"; ?>
 
-<div class="container p-5 card" style="max-width: 600px; margin-top: 100px; max-height: 640px;"> 
+<div class="container p-5 mb-5 card" style="max-width: 600px; margin-top: 100px; max-height: 640px;"> 
     <h2 class="text-center">Add Client</h2>
     <p class="text-danger text-center"><?php echo $message; ?></p>
     <form method="post">
