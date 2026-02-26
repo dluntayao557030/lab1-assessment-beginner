@@ -15,7 +15,7 @@ $result = mysqli_query($conn, "SELECT * FROM clients ORDER BY client_id DESC");
 <div class="container p-5 card" style="max-width: 1000px; margin-top: 100px; max-height: 640px;">
     <h2 class="pb-4">Clients</h2>
     <table border="1" cellpadding="8" class="table table-striped">
-    <tr class="text-center">
+    <tr>
         <th>ID</th><th>Name</th><th>Email</th><th>Phone</th><th>Action</th>
     </tr>
     <?php while($row = mysqli_fetch_assoc($result)) { ?>
