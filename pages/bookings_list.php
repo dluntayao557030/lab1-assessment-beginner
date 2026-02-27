@@ -40,7 +40,7 @@ $result = mysqli_query($conn, $sql);
         </tr>
     <?php } ?>
     </table>
-    <div class="text-center pt-4">
+    <div class="text-end pt-4">
         <button class="btn btn-primary" onclick="window.location.href='bookings_create.php'">Create Booking</button>
     </div>
 </div>

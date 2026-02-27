@@ -1,4 +1,12 @@
 <?php
+session_start();
+ 
+// If not logged in, redirect to login
+if (!isset($_SESSION['username'])) {
+    header("Location: login.php");
+    exit();
+}
+
 include "db.php";
  
 $clients = mysqli_fetch_assoc(mysqli_query($conn, "SELECT COUNT(*) AS c FROM clients"))['c'];
@@ -24,7 +32,8 @@ $revenue = $revRow['s'];
 <section id="kpis" class="section-padding">
     <section style="padding: 50px;"></section>
     <div class="container">
-        <h2 class="text-center mb-5 ">Dashboard</h2>
+        <h1 class="text-center mb-5 ">Dashboard</h1>
+        <h2 class="text-center mb-5">Welcome, <?php echo $_SESSION['username']; ?>!</h2>
         <div class="row text-center ">
             <div class="col-md-3">
                 <div class="card p-4">

@@ -30,7 +30,7 @@ $result = mysqli_query($conn, "SELECT * FROM clients ORDER BY client_id DESC");
         </tr>
     <?php } ?>
     </table>
-    <div class="text-center pt-4">
+    <div class="text-end pt-4">
         <button class="btn btn-primary" onclick="window.location.href='clients_add.php'">Add Client</button>
     </div>
 </div>

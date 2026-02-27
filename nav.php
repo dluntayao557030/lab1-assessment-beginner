@@ -16,6 +16,7 @@
                 <li class="nav-item"> <a class = "nav-link" href="/assessment_beginner/pages/bookings_list.php">Bookings</a></li>
                 <li class="nav-item"> <a class = "nav-link" href="/assessment_beginner/pages/tools_list_assign.php">Tools</a></li>
                 <li class="nav-item"> <a class = "nav-link" href="/assessment_beginner/pages/payments_list.php">Payments</a></li>
+                <li class="nav-item"> <a class = "nav-link" href="/assessment_beginner/logout.php">Logout</a></li>
             </ul>
         </div>
     </div>
